@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #E5E5E5;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #2E2F42;
+}
+
+.nav-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.current {
+    color: #404BBF;
+}
+
+.address-link {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+}
+
