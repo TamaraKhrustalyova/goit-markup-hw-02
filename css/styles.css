@@ -1,7 +1,20 @@
+:root {
+    /* text colors */
+    --main-txt-cl: #2E2F42;
+    --secondary-txt-cl: #434455;
+    --accent-txt-cl: #4D5AE5; 
+
+    /* BG colors */
+    --main-bg-cl: #E5E5E5;
+    --secondary-bg-cl: #2E2F42;
+    --accent-bg-cl: #404BBF;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #E5E5E5;
+    background-color: var(--main-bg-cl);
+    color: var(--main-txt-cl);
 }
 
 .logo {
@@ -9,41 +22,44 @@ body {
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 800;
-    color: #2E2F42;
+    color: inherit;
 }
 
 .accent {
-    color: #4D5AE5;
+    color: var(--accent-txt-cl);
 }
 
 .nav-link {
     font-family: inherit;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: inherit;
+    line-height: calc(24 / 16);
     text-decoration: none;
-    color: #2E2F42;
+    color: inherit;
 }
 
  .nav-link:hover,
  .nav-link:focus {
-    color: #404BBF;
+    color: var(--accent-bg-cl);
 }
 
 .current:active {
-    color: #404BBF;
+    color: var(--accent-bg-cl);
 }
 
 .address-link {
     font-family: inherit;
-    font-size: 16px;
-    color: #434455;
+    font-size: inherit;
+    color: var(--secondary-txt-cl);
     text-decoration: none;
     font-style: normal;
 }
 
 .section-slogan {
-    background-color: #2E2F42;
+    background-color: var(--secondary-bg-cl);
+}
+
+.slogan-title {
     font-family: inherit;
     font-weight: 700;
     font-size: 56px;
@@ -51,24 +67,19 @@ body {
     color: #FFFFFF;
 }
 
-.text-slogan {
-    font-family: inherit;
-}
-
 .button-order {
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background: var(--accent-txt-cl);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24 / 16);
     color: #FFFFFF;
+    cursor: pointer;
 } 
 
 .button-order:hover,
 .button-order:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-bg-cl);
 }
 
 .button-filter {
@@ -78,11 +89,12 @@ body {
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #4D5AE5;
+    cursor: pointer;
 }
 
 .button-filter:hover,
 .button-filter:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-bg-cl);
     color: #FFFFFF ;
 }
 
@@ -90,8 +102,8 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    color: #2E2F42;
+    line-height: calc(40 / 36);
+    color: inherit;
 }
 
 .header-3 {
@@ -99,10 +111,10 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #2E2F42;
+    color: inherit;
 }
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--secondary-bg-cl);
     color: #FFFFFF;
 }
 
