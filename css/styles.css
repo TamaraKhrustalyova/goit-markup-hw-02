@@ -30,7 +30,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    background-color: var(--main-bg-cl);
+    background-color:  #FFFFFF;
     color: var(--main-txt-cl);
 }
 
