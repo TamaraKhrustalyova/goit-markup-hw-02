@@ -120,6 +120,10 @@ body {
     color: var(--white-txt-cl) ;
 }
 
+.list {
+    list-style: none;
+}
+
 .header-2 {
     font-weight: 700;
     font-size: 36px;
