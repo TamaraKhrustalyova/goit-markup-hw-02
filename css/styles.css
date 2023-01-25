@@ -69,11 +69,12 @@ body {
     text-decoration: none;
     font-style: normal;
     line-height: calc(24 / 16);
+    cursor: pointer;
 }
 
 .address-link:hover,
 .address-link:focus {
-    cursor: pointer;          
+    color: var(--accent-txt-cl);          
 }
 
 .section-slogan {
@@ -81,7 +82,6 @@ body {
 }
 
 .slogan-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
     color: var(--white-txt-cl);
