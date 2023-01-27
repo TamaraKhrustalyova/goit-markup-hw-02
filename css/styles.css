@@ -144,7 +144,6 @@ body {
 }
 
 .header-2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
 }
@@ -167,12 +166,13 @@ body {
 .footer {
     background-color: var(--secondary-bg-cl);
     color: var(--white-txt-cl);
+    line-height: calc(24 / 16);
 }
 
 .logo-footer {
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     color: inherit;
     letter-spacing: 0.03em;
