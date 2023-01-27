@@ -12,6 +12,35 @@
     --accent-bg-cl: #404BBF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -38,7 +67,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 800;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: inherit;
     letter-spacing: 0.03em;
     line-height: calc(24 / 18);
@@ -50,9 +79,7 @@ body {
 
 .nav-link {
     font-weight: 500;
-    font-size: inherit;
     line-height: calc(24 / 16);
-    letter-spacing: inherit;
     text-decoration: none;
     color: inherit;
 }
@@ -63,8 +90,6 @@ body {
 }
 
 .address-link {
-    font-size: inherit;
-    letter-spacing: inherit;
     color: var(--secondary-txt-cl);
     text-decoration: none;
     font-style: normal;
@@ -96,7 +121,6 @@ body {
     letter-spacing: 0.04em;
     line-height: calc(24 / 16);
     color: var(--white-txt-cl);
-    cursor: pointer;
 } 
 
 .button-order:hover,
@@ -111,7 +135,6 @@ body {
     font-size: 16px;
     line-height: calc(24 / 16);
     color: var(--accent-txt-cl);
-    cursor: pointer;
 }
 
 .button-filter:hover,
@@ -120,24 +143,21 @@ body {
     color: var(--white-txt-cl) ;
 }
 
-.list {
-    list-style: none;
-}
-
 .header-2 {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
-    color: inherit;
-    letter-spacing: inherit;
 }
 
 .header-3 {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    color: inherit;
-    letter-spacing: inherit;
+}
+
+.paragraph {
+    line-height: calc(24 / 16);
+    color: var(--secondary-txt-cl);
 }
 
 .section-team {
