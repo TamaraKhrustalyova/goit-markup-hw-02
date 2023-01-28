@@ -68,13 +68,13 @@ body {
     text-decoration: none;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
-    color: inherit;
+    color: var(--accent-bg-cl);
     letter-spacing: 0.03em;
     line-height: calc(24 / 18);
 }
 
 .accent {
-    color: var(--accent-txt-cl);
+    color: var(--main-txt-cl);
 }
 
 .nav-link {
@@ -169,13 +169,6 @@ body {
     line-height: calc(24 / 16);
 }
 
-.logo-footer {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    color: inherit;
-    letter-spacing: 0.03em;
-    line-height: calc(24 / 18);
+.accent-footer {
     color: var(--white-txt-cl);
 }
